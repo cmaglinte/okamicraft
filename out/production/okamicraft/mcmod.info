@@ -1,0 +1,21 @@
+[
+{
+  "modid": "okamicraft",
+  "name": "Okami Craft",
+  "description": "Random things!",
+  "version": "1.7.10-1.0",
+  "mcversion": "1.7.10",
+  "url": "",
+  "updateUrl": "",
+  "authorList": [
+    "KazOkami"
+  ],
+  "credits": "KazOkami",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]

@@ -1,0 +1,31 @@
+[00:49:07] [main/INFO]: Setting user: Player476
+[00:49:08] [Client thread/INFO]: LWJGL Version: 2.9.1
+[00:49:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Okami Craft
+[00:49:14] [Sound Library Loader/INFO]: Sound engine started
+[00:49:16] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:49:16] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:49:16] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Okami Craft
+[00:49:16] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[00:49:16] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:49:17] [Sound Library Loader/INFO]: Sound engine started
+[00:49:22] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[00:49:22] [Server thread/INFO]: Generating keypair
+[00:49:23] [Server thread/INFO]: Preparing start region for level 0
+[00:49:24] [Server thread/INFO]: Changing view distance to 12, from 10
+[00:49:24] [Server thread/INFO]: Player476[local:E:53f7cc6a] logged in with entity id 124 at (-403.7189793690692, 4.0, -1177.0395143014628)
+[00:49:24] [Server thread/INFO]: Player476 joined the game
+[00:49:41] [Server thread/INFO]: [Player476: Given [Sunlit Stone] * 1 to Player476]
+[00:49:41] [Client thread/INFO]: [CHAT] Given [Sunlit Stone] * 1 to Player476
+[00:49:55] [Server thread/INFO]: Player476 has just earned the achievement [Taking Inventory]
+[00:49:55] [Client thread/INFO]: [CHAT] Player476 has just earned the achievement [Taking Inventory]
+[00:49:58] [Server thread/INFO]: Saving and pausing game...
+[00:49:58] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:49:58] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:49:58] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:50:03] [Server thread/INFO]: Stopping server
+[00:50:03] [Server thread/INFO]: Saving players
+[00:50:03] [Server thread/INFO]: Saving worlds
+[00:50:03] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[00:50:03] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[00:50:03] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[00:50:05] [Client thread/INFO]: Stopping!
