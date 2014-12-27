@@ -1,6 +1,7 @@
 package com.kazokami.okamicraft.item;
 
 
+import com.kazokami.okamicraft.creativetab.CreativeTabOC;
 import com.kazokami.okamicraft.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -13,6 +14,7 @@ public class ItemOC extends Item
     public ItemOC()
     {
         super();
+        this.setCreativeTab(CreativeTabOC.OC_TAB);
         this.maxStackSize = 1;
     }
 
@@ -20,7 +22,6 @@ public class ItemOC extends Item
     public String getUnlocalizedName()
     {
         return String.format("item.%s%s", Reference.MOD_ID.toLowerCase() + ":", getUnwrappedUnlocalizedName(super.getUnlocalizedName()));
-
     }
 
     @Override

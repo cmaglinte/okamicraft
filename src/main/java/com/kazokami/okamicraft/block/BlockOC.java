@@ -1,5 +1,6 @@
 package com.kazokami.okamicraft.block;
 
+import com.kazokami.okamicraft.creativetab.CreativeTabOC;
 import com.kazokami.okamicraft.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -14,11 +15,13 @@ public class BlockOC extends Block
     public BlockOC(Material material)
     {
         super(material);
+        this.setCreativeTab(CreativeTabOC.OC_TAB);
     }
 
     public BlockOC()
     {
         this(Material.rock);
+
     }
 
     @Override

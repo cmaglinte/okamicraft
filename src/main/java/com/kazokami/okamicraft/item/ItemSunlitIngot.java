@@ -1,7 +1,12 @@
 package com.kazokami.okamicraft.item;
 
-/**
- * Created by Hiroji on 12/22/2014.
- */
-public class ItemSunlitIngot {
+
+public class ItemSunlitIngot extends ItemOC
+{
+    public ItemSunlitIngot()
+    {
+        super();
+        this.setUnlocalizedName("sunlitIngot");
+        this.setMaxStackSize(64);
+    }
 }

@@ -1,7 +1,14 @@
 package com.kazokami.okamicraft.block;
 
-/**
- * Created by Hiroji on 12/22/2014.
- */
-public class BlockSunlitOre {
+public class BlockSunlitOre extends BlockOC
+{
+    public BlockSunlitOre()
+    {
+        super();
+        this.setBlockName("sunlitOre");
+        this.setLightLevel(1);
+        this.setHardness(5.0F);
+        this.setHarvestLevel("pickaxe", 3);
+
+    }
 }

@@ -3,8 +3,10 @@ package com.kazokami.okamicraft;
 import com.kazokami.okamicraft.handler.ConfigurationHandler;
 import com.kazokami.okamicraft.init.ModBlocks;
 import com.kazokami.okamicraft.init.ModItems;
+import com.kazokami.okamicraft.init.ModRecipes;
 import com.kazokami.okamicraft.proxy.IProxy;
 import com.kazokami.okamicraft.reference.Reference;
+import com.kazokami.okamicraft.utility.LogHelper;
 import cpw.mods.fml.common.FMLCommonHandler;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.SidedProxy;
@@ -12,7 +14,7 @@ import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
-@Mod(modid = Reference.MOD_ID , name = Reference.MOD_NAME , version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
+@Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME , version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
 public class okamicraft
 {
     @Mod.Instance(Reference.MOD_ID)
@@ -30,17 +32,22 @@ public class okamicraft
 
         ModItems.init();
         ModBlocks.init();
+
+
+        LogHelper.info("Pre Initialization Complete!");
     }
 
     @Mod.EventHandler
     public void init(FMLInitializationEvent event)
     {
+        ModRecipes.init();
 
+        LogHelper.info("Initialization Complete!");
     }
 
     @Mod.EventHandler
     public void postInit(FMLPostInitializationEvent event)
     {
-
+        LogHelper.info("Post Initialization Complete!");
     }
 }

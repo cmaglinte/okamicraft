@@ -8,6 +8,4 @@ public class ItemHOPF extends ItemOC
         super();
         this.setUnlocalizedName("heartOfPraxicFire");
     }
-
-
 }
