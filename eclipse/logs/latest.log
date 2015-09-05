@@ -1,30 +1,29 @@
-[22:08:16] [main/INFO]: Setting user: Player327
-[22:08:18] [Client thread/INFO]: LWJGL Version: 2.9.1
-[22:08:23] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Okami Craft
-[22:08:24] [Sound Library Loader/INFO]: Sound engine started
-[22:08:25] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:08:25] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[22:08:25] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Okami Craft
-[22:08:25] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[22:08:26] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[22:08:26] [Sound Library Loader/INFO]: Sound engine started
-[22:08:30] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[22:08:30] [Server thread/INFO]: Generating keypair
-[22:08:31] [Server thread/INFO]: Preparing start region for level 0
-[22:08:31] [Server thread/INFO]: Changing view distance to 12, from 10
-[22:08:32] [Server thread/INFO]: Player327[local:E:e2c6e43f] logged in with entity id 126 at (-345.1791016631932, 4.0, -1212.0392306303168)
-[22:08:32] [Server thread/INFO]: Player327 joined the game
-[22:08:34] [Server thread/INFO]: Player327 has just earned the achievement [Taking Inventory]
-[22:08:34] [Client thread/INFO]: [CHAT] Player327 has just earned the achievement [Taking Inventory]
-[22:08:45] [Client thread/INFO]: [CHAT] Unknown command. Try /help for a list of commands
-[22:09:38] [Server thread/INFO]: Saving and pausing game...
-[22:09:38] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[22:09:38] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[22:09:38] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[22:09:39] [Server thread/INFO]: Stopping server
-[22:09:39] [Server thread/INFO]: Saving players
-[22:09:39] [Server thread/INFO]: Saving worlds
-[22:09:39] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
-[22:09:39] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
-[22:09:39] [Server thread/INFO]: Saving chunks for level 'New World'/The End
-[22:09:40] [Client thread/INFO]: Stopping!
+[19:44:01] [main/INFO]: Setting user: Player772
+[19:44:02] [Client thread/INFO]: LWJGL Version: 2.9.1
+[19:44:07] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Okami Craft
+[19:44:08] [Sound Library Loader/INFO]: Sound engine started
+[19:44:09] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:44:09] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[19:44:09] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Okami Craft
+[19:44:09] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[19:44:09] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[19:44:10] [Sound Library Loader/INFO]: Sound engine started
+[19:44:13] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[19:44:13] [Server thread/INFO]: Generating keypair
+[19:44:13] [Server thread/INFO]: Preparing start region for level 0
+[19:44:14] [Server thread/INFO]: Changing view distance to 12, from 10
+[19:44:15] [Server thread/INFO]: Player772[local:E:0cc0ee3f] logged in with entity id 200 at (-353.1329212199824, 4.0, -1208.9954023588755)
+[19:44:15] [Server thread/INFO]: Player772 joined the game
+[19:44:15] [Server thread/INFO]: Saving and pausing game...
+[19:44:15] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[19:44:15] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[19:44:15] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[19:44:23] [Server thread/INFO]: Player772 has just earned the achievement [Taking Inventory]
+[19:44:23] [Client thread/INFO]: [CHAT] Player772 has just earned the achievement [Taking Inventory]
+[19:44:27] [Client thread/INFO]: Stopping!
+[19:44:27] [Server thread/INFO]: Stopping server
+[19:44:27] [Server thread/INFO]: Saving players
+[19:44:27] [Server thread/INFO]: Saving worlds
+[19:44:27] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[19:44:27] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[19:44:27] [Server thread/INFO]: Saving chunks for level 'New World'/The End

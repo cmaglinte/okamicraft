@@ -90,12 +90,12 @@ public class ItemHeirsArmor extends ItemArmor implements ISpecialArmor
 
     public void onArmorTick(World world, EntityPlayer player, ItemStack itemStack)
     {
-        if(this.armorType == 1)
+        if(itemStack.getItem().equals(ModItems.heirsChest))//(this.armorType == 1)
         {
             player.addPotionEffect(new PotionEffect(Potion.fireResistance.id, 2, 9, true));
             player.extinguish();
         }
-        if(this.armorType == 2)
+        if(itemStack.getItem().equals(ModItems.heirsTrunks))//(this.armorType == 2)
         {
             if (((player.onGround) || (player.capabilities.isFlying)) && (player.moveForward > 0.0F) && (!player.isInsideOfMaterial(Material.water)))
             {

@@ -6,6 +6,7 @@ import com.kazokami.okamicraft.item.ItemOC;
 import com.kazokami.okamicraft.item.ItemSunlitIngot;
 import com.kazokami.okamicraft.item.armor.ItemHeirsArmor;
 import com.kazokami.okamicraft.item.armor.ItemSunlitArmor;
+import com.kazokami.okamicraft.item.weapons.SunlitSword;
 import com.kazokami.okamicraft.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
@@ -30,12 +31,14 @@ public class ModItems
     public static Item heirsChest;
     public static Item heirsTrunks;
 
+    public static Item sunlitSword;
+
     public static void init()
     {
 
         /*Set Materials*/
         materialSolairium = EnumHelper.addArmorMaterial("HEIRS", 0, new int[]{3, 8, 6, 3}, 20);
-        toolMaterialSolairium = EnumHelper.addToolMaterial("SOLAIRIUM", 4, -1, 10.0F, 5.0F, 25);
+        toolMaterialSolairium = EnumHelper.addToolMaterial("SOLAIRIUM", 4, -1, 15.0F, 6.0F, 25);
 
         sunlitArmorHelmet = new ItemSunlitArmor(ItemArmor.ArmorMaterial.DIAMOND, 4, 0).setUnlocalizedName("sunlitArmorHelm");
         sunlitArmorPlate = new ItemSunlitArmor(ItemArmor.ArmorMaterial.DIAMOND, 4, 1).setUnlocalizedName("sunlitArmorPlate");
@@ -45,6 +48,8 @@ public class ModItems
         heirsHelm = new ItemHeirsArmor(0).setUnlocalizedName("heirsHelm");
         heirsChest = new ItemHeirsArmor(1).setUnlocalizedName("heirsChest");
         heirsTrunks = new ItemHeirsArmor(2).setUnlocalizedName("heirsTrunks");
+
+        sunlitSword = new SunlitSword("sunlitSword", toolMaterialSolairium);
 
         GameRegistry.registerItem(heartOfPraxicFire, "heartOfPraxicFire");
         GameRegistry.registerItem(sunlitIngot, "sunlitIngot");
@@ -56,5 +61,7 @@ public class ModItems
         GameRegistry.registerItem(heirsHelm, "heirsHelm");
         GameRegistry.registerItem(heirsChest, "heirsChest");
         GameRegistry.registerItem(heirsTrunks, "heirsTrunks");
+
+        GameRegistry.registerItem(sunlitSword, "sunlitSword");
     }
 }
