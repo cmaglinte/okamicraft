@@ -4,9 +4,10 @@ package com.kazokami.okamicraft.init;
 import com.kazokami.okamicraft.item.ItemHOPF;
 import com.kazokami.okamicraft.item.ItemOC;
 import com.kazokami.okamicraft.item.ItemSunlitIngot;
+import com.kazokami.okamicraft.item.ItemMundaneSunlitIngot;
 import com.kazokami.okamicraft.item.armor.ItemHeirsArmor;
 import com.kazokami.okamicraft.item.armor.ItemSunlitArmor;
-import com.kazokami.okamicraft.item.weapons.SunlitSword;
+import com.kazokami.okamicraft.item.weapons.mundaneSunlitSword;
 import com.kazokami.okamicraft.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 import net.minecraft.item.Item;
@@ -19,9 +20,11 @@ public class ModItems
     /*Establish Materials*/
     public static ItemArmor.ArmorMaterial materialSolairium;
     public static Item.ToolMaterial toolMaterialSolairium;
+    public static Item.ToolMaterial toolMaterialMundanium;
 
     public static final ItemOC heartOfPraxicFire = new ItemHOPF();
     public static final ItemOC sunlitIngot = new ItemSunlitIngot();
+    public static final ItemOC mundaneSunlitIngot = new ItemMundaneSunlitIngot();
 
     public static Item sunlitArmorHelmet;
     public static Item sunlitArmorPlate;
@@ -31,7 +34,7 @@ public class ModItems
     public static Item heirsChest;
     public static Item heirsTrunks;
 
-    public static Item sunlitSword;
+    public static Item munSunlitSword;
 
     public static void init()
     {
@@ -39,6 +42,8 @@ public class ModItems
         /*Set Materials*/
         materialSolairium = EnumHelper.addArmorMaterial("HEIRS", 0, new int[]{3, 8, 6, 3}, 20);
         toolMaterialSolairium = EnumHelper.addToolMaterial("SOLAIRIUM", 4, -1, 15.0F, 6.0F, 25);
+        toolMaterialMundanium = EnumHelper.addToolMaterial("MUNDANIUM", 3, 500, 15.0F, 2.0F, 25);
+
 
         sunlitArmorHelmet = new ItemSunlitArmor(ItemArmor.ArmorMaterial.DIAMOND, 4, 0).setUnlocalizedName("sunlitArmorHelm");
         sunlitArmorPlate = new ItemSunlitArmor(ItemArmor.ArmorMaterial.DIAMOND, 4, 1).setUnlocalizedName("sunlitArmorPlate");
@@ -49,10 +54,11 @@ public class ModItems
         heirsChest = new ItemHeirsArmor(1).setUnlocalizedName("heirsChest");
         heirsTrunks = new ItemHeirsArmor(2).setUnlocalizedName("heirsTrunks");
 
-        sunlitSword = new SunlitSword("sunlitSword", toolMaterialSolairium);
+        munSunlitSword = new mundaneSunlitSword("mundaneSunlitSword", toolMaterialMundanium);
 
         GameRegistry.registerItem(heartOfPraxicFire, "heartOfPraxicFire");
         GameRegistry.registerItem(sunlitIngot, "sunlitIngot");
+        GameRegistry.registerItem(mundaneSunlitIngot, "mundaneSunlitIngot");
 
         GameRegistry.registerItem(sunlitArmorHelmet, "sunlitArmorHelm");
         GameRegistry.registerItem(sunlitArmorPlate, "sunlitArmorPlate");
@@ -62,6 +68,6 @@ public class ModItems
         GameRegistry.registerItem(heirsChest, "heirsChest");
         GameRegistry.registerItem(heirsTrunks, "heirsTrunks");
 
-        GameRegistry.registerItem(sunlitSword, "sunlitSword");
+        GameRegistry.registerItem(munSunlitSword, "mundaneSunlitSword");
     }
 }
